@@ -6,7 +6,7 @@ jobs:
       - image: circleci/elixir:1.9.1 
         environment:  
           MIX_ENV: test mix espec.init
-      - image: circleci/postgres:11,2 
+      - image: circleci/postgres:11.2 
         environment:  
           POSTGRES_USER: postgres
           POSTGRES_DB: ebay_clone_test
